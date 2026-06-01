@@ -1,0 +1,97 @@
+{
+  "agents": [
+    {
+      "name": "Sarah Connor",
+      "username": "sconnor",
+      "email": "sarah.connor@agency.com",
+      "phone": "+91 9876543210",
+      "role": "Manager",
+      "status": "Inactive",
+      "id": 1
+    },
+    {
+      "name": "John Doe",
+      "username": "jdoe",
+      "email": "john.doe@agency.com",
+      "phone": "+91 20255501434",
+      "role": "Agent",
+      "status": "Active",
+      "id": 2
+    },
+    {
+      "id": 4,
+      "name": "Alex Chen",
+      "username": "alexchen",
+      "email": "alex.chen@agency.com",
+      "phone": "+61 298765432",
+      "role": "Agent",
+      "status": "Inactive"
+    },
+    {
+      "id": 5,
+      "name": "Marcus Wright",
+      "username": "mwright",
+      "email": "marcus.w@agency.com",
+      "phone": "+1 3125550189",
+      "role": "Manager",
+      "status": "Active"
+    },
+    {
+      "name": "aaa",
+      "username": "aaa",
+      "email": "aaa@mail.com",
+      "phone": "+91 123456794",
+      "role": "Manager",
+      "status": "Active",
+      "id": 6
+    },
+    {
+      "name": "bbbb",
+      "username": "bbb",
+      "email": "b@gmail.com",
+      "phone": "+91 75396545685",
+      "role": "Agent",
+      "status": "Active",
+      "id": 7
+    },
+    {
+      "name": "dddd",
+      "username": "dd",
+      "email": "d@gmail.com",
+      "phone": "+91 1234567900",
+      "role": "Agent",
+      "status": "Active",
+      "id": 8
+    }
+  ],
+  "activities": [
+    {
+      "action": "Updated",
+      "agentName": "Elena Rostova",
+      "timestamp": "2026-05-26T12:47:01.171Z",
+      "details": "Updated profile details",
+      "id": 1
+    },
+    {
+      "action": "Added",
+      "agentName": "bbbb",
+      "timestamp": "2026-05-26T12:51:51.188Z",
+      "details": "Added as Agent",
+      "id": 2
+    },
+    {
+      "action": "Added",
+      "agentName": "dddd",
+      "timestamp": "2026-05-28T05:12:46.683Z",
+      "details": "Added as Agent",
+      "id": 3
+    },
+    {
+      "action": "Deleted",
+      "agentName": "Elena Rostova",
+      "timestamp": "2026-05-29T09:58:38.577Z",
+      "details": "Removed from systems",
+      "id": 4
+    }
+  ]
+}
