@@ -5,6 +5,7 @@ interface Stat {
   value: number;
   gradient: string;
   icon: React.ReactNode;
+  bgColor: string;
 }
 
 interface StatsBarProps {
