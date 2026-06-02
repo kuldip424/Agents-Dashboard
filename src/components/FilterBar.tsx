@@ -28,22 +28,22 @@ export function FilterBar({
           placeholder="Search agents by name or email…"
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
-          className="w-full pl-11 pr-4 py-3 rounded-xl bg-white text-sm text-slate-900 placeholder-slate-400 outline-none transition-all duration-300 border border-slate-200 focus:border-slate-400 focus:ring-4 focus:ring-slate-500/10 font-500 shadow-xs"
+          className="w-full pl-11 pr-4 py-3 rounded-lg bg-white text-sm text-slate-900 placeholder-slate-400 outline-none transition-all duration-300 border border-slate-200 focus:border-slate-400 focus:ring-4 focus:ring-slate-500/10 font-500 shadow-xs"
         />
       </div>
 
       {/* Segmented filter */}
-      <div className="inline-flex rounded-xl p-1.5 gap-1 flex-shrink-0 bg-slate-100 border border-slate-200">
+      <div className="inline-flex rounded-lg p-1.5 gap-1 flex-shrink-0 bg-slate-100 border border-slate-200">
         {FILTER_OPTIONS.map((r) => {
           const active = filterRole === r;
           return (
             <button
               key={r}
               onClick={() => onFilterChange(r)}
-              className={`px-5 py-2.5 rounded-lg text-sm font-600 transition-all duration-300 ${
+              className={`px-5 py-2.5 rounded-md text-sm font-700 transition-all duration-300 ${
                 active
-                  ? "bg-white text-slate-900 shadow-md border border-slate-200"
-                  : "text-slate-500 hover:text-slate-700"
+                  ? "bg-white text-slate-950 shadow-sm border border-slate-200"
+                  : "text-slate-600 hover:text-slate-900"
               }`}
             >
               {r}

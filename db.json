@@ -62,6 +62,15 @@
       "role": "Agent",
       "status": "Active",
       "id": 8
+    },
+    {
+      "name": "riyan",
+      "username": "riyan",
+      "email": "riyan@mail.com",
+      "phone": "+91 1234552156",
+      "role": "Agent",
+      "status": "Active",
+      "id": 9
     }
   ],
   "activities": [
@@ -92,6 +101,13 @@
       "timestamp": "2026-05-29T09:58:38.577Z",
       "details": "Removed from systems",
       "id": 4
+    },
+    {
+      "action": "Added",
+      "agentName": "riyan",
+      "timestamp": "2026-06-01T11:06:30.461Z",
+      "details": "Added as Agent",
+      "id": 5
     }
   ]
 }
