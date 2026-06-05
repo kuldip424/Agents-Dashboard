@@ -71,6 +71,15 @@
       "role": "Agent",
       "status": "Active",
       "id": 9
+    },
+    {
+      "name": "Rosni",
+      "username": "rosni",
+      "email": "rosni@mail.com",
+      "phone": "+91 7945612300",
+      "role": "Agent",
+      "status": "Active",
+      "id": 10
     }
   ],
   "activities": [
@@ -108,6 +117,13 @@
       "timestamp": "2026-06-01T11:06:30.461Z",
       "details": "Added as Agent",
       "id": 5
+    },
+    {
+      "action": "Added",
+      "agentName": "Rosni",
+      "timestamp": "2026-06-02T06:19:45.909Z",
+      "details": "Added as Agent",
+      "id": 6
     }
   ]
 }

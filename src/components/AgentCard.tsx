@@ -36,10 +36,11 @@ export function AgentCard({ agent, onEdit, onDelete }: AgentCardProps) {
           <div className="flex items-start gap-4 flex-1 min-w-0">
             {/* Avatar */}
             <div
-              className="w-14 h-14 rounded-xl flex items-center justify-center font-bold text-base flex-shrink-0 shadow-sm group-hover:shadow-md transition-all duration-300 group-hover:scale-110"
+              className="w-11 h-11 rounded-xl flex items-center justify-center font-semibold text-sm flex-shrink-0 tracking-widest uppercase shadow-sm group-hover:shadow-md transition-all duration-300 group-hover:scale-105"
               style={{
                 background: color.bg,
                 color: color.text,
+                letterSpacing: "0.12em",
               }}
             >
               {getInitials(agent.name)}
@@ -47,10 +48,10 @@ export function AgentCard({ agent, onEdit, onDelete }: AgentCardProps) {
 
             {/* Name & Email */}
             <div className="min-w-0 flex-1 pt-0.5">
-              <h3 className="font-700 text-base text-slate-950 leading-snug truncate group-hover:text-slate-900 transition-colors">
+              <h3 className="font-700 text-sm sm:text-base text-slate-950 leading-snug truncate group-hover:text-slate-900 transition-colors">
                 {agent.name}
               </h3>
-              <div className="flex items-center gap-1.5 mt-4 text-xs text-slate-500 font-500">
+              <div className="flex items-center gap-1.5 mt-3 sm:mt-4 text-[11px] sm:text-xs text-slate-500 font-500">
                 <IconMail size={13} className="text-slate-400 flex-shrink-0" />
                 <span className="group-hover:text-slate-600 transition-colors">{agent.email}</span>
               </div>
